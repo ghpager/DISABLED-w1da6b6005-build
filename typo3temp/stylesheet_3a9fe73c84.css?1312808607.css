@@ -1,0 +1,385 @@
+/* default styles for extension "tx_indexedsearch" */
+	.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-button { width:100px; }
+	.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-sword { width:150px; }
+	.tx-indexedsearch .tx-indexedsearch-whatis P .tx-indexedsearch-sw { font-weight:bold; font-style:italic; }
+	.tx-indexedsearch .tx-indexedsearch-whatis { margin-top:10px; margin-bottom:5px; }
+	.tx-indexedsearch P.tx-indexedsearch-noresults { text-align:center; font-weight:bold; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title { background:#eeeeee; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title P { font-weight:bold; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title P.tx-indexedsearch-percent { font-weight:normal; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr P { font-style:italic; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr P .tx-indexedsearch-redMarkup { color:red; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-info { background:#eeeeff; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead { margin-top:20px; margin-bottom:5px; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead H2 { margin-top:0px; margin-bottom:0px; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TABLE { background:#cccccc; }
+	.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TD { vertical-align:absmiddle; }
+/* default styles for extension "tx_dirlisting_pi1" */
+    .tx-dirlisting-pi1-error { color: maroon; }
+    .tx-dirlisting-pi1-title { }
+    
+    .tx-dirlisting-pi1 table { border-width: 1px; border-style: dotted; border-color: black; }
+    .tx-dirlisting-pi1-header-row { background-color: gray; }
+    .tx-dirlisting-pi1-row { background-color: silver; }
+    
+    .tx-dirlisting-pi1-header-icon,
+    .tx-dirlisting-pi1-header-filename,
+    .tx-dirlisting-pi1-header-perms,
+    .tx-dirlisting-pi1-header-owner,
+    .tx-dirlisting-pi1-header-group,
+    .tx-dirlisting-pi1-header-filesize,
+    .tx-dirlisting-pi1-header-filemod {
+      color: #ffd000;
+      font-style: italic;
+      font-weight: bold;
+      border-bottom-width: 1px;
+      border-bottom-style: dotted;
+      border-bottom-color: black;
+    }
+    
+    .tx-dirlisting-pi1-icon,
+    .tx-dirlisting-pi1-filename,
+    .tx-dirlisting-pi1-filename-asb,
+    .tx-dirlisting-pi1-perms,
+    .tx-dirlisting-pi1-owner,
+    .tx-dirlisting-pi1-group,
+    .tx-dirlisting-pi1-filesize,
+    .tx-dirlisting-pi1-filemod { }
+/* default styles for extension "tx_slideshow_pi1" */
+		.tx-slideshow-pi1 {
+			text-align: center;
+		}
+/* default styles for extension "tx_bddbflvvideogallery_pi1" */
+.tx-bddbflvvideogallery-pi1 p {
+  padding:0px;
+  text-align:center;
+  border:1px solid #ddd;
+  background-color:#eee;
+  }
+
+.flvplayer_listpic_pic {
+  border: 0px solid #990000;
+}
+.flvplayer_listpic {
+  height: 70px;
+	width: 70px;
+	border: 0px solid #888888;
+  padding: 0px 4px 4px 0px;
+	margin: 0px 6px 6px 0px;
+	background-repeat:	no-repeat;
+	background-position: 0px 0px;
+}
+
+.flvplayer_listpic_firstofrow {
+  height: 70px;
+	width: 70px;
+	border: 0px solid #888888;
+  padding: 0px 4px 4px 0px;
+	margin: 0px 6px 6px 0px;
+	background-repeat:	no-repeat;
+	background-position: 0px 0px;
+}
+
+.flvplayer_listpic_lastofrow {
+  height: 70px;
+	width: 70px;
+	border: 0px solid #888888;
+  padding: 0px 4px 4px 0px;
+	margin: 0px 0px 6px 0px;
+	background-repeat:	no-repeat;
+	background-position: 0px 0px;
+}
+
+.flvplayer_pagebrowser {
+
+}
+
+.browseLinksWrap {
+	text-align: center;
+}
+
+#flvplayercaption {
+	float:left;
+}
+
+#flvcaption {
+ clear: both;
+ margin-top: 0px;
+	width: 360px;
+}
+
+.flvplayer_pagebrowser_fwd {
+  float:right;
+  margin-right: 4px;
+}
+
+.flvplayer_pagebrowser_back {
+  float:left;
+}
+
+#player {
+	float: left;
+	margin-right: 16px;
+	margin-bottom: 10px;
+}
+
+* html #player {
+	margin-right: 8px;
+}
+
+#playlist {
+ 
+}
+
+#loadingMessage {
+padding: 7px 0px 7px 0px;
+width: 320px;
+background-color: #ffffff;
+text-align: center;
+position: absolute;
+margin: 130px 0px 0px 19px;
+}
+/* default styles for extension "tx_cssfilelist" */
+	.filelinks div{padding-left:25px; background:url('../typo3/gfx/fileicons/default.gif') left top no-repeat; margin-bottom:10px;}
+	.filelinks span{display:block;}
+	.filelinks .filecount{display:block; margin-bottom:5px;} 
+	.filelinks a{color:#000;text-decoration:none; }
+	/* Icons begin */
+	.filelinks .ai{background-image:url('../typo3/gfx/fileicons/ai.gif')!important;}
+	.filelinks .ani{background-image:url('../typo3/gfx/fileicons/ani.gif')!important;}
+	.filelinks .au{background-image:url('../typo3/gfx/fileicons/au.gif')!important;}
+	.filelinks .avi{background-image:url('../typo3/gfx/fileicons/avi.gif')!important;}
+	.filelinks .bmp{background-image:url('../typo3/gfx/fileicons/bmp.gif')!important;}
+	.filelinks .cdr{background-image:url('../typo3/gfx/fileicons/cdr.gif')!important;}
+	.filelinks .css{background-image:url('../typo3/gfx/fileicons/css.gif')!important;}
+	.filelinks .csv{background-image:url('../typo3/gfx/fileicons/csv.gif')!important;}
+	.filelinks .doc{background-image:url('../typo3/gfx/fileicons/doc.gif')!important;}
+	.filelinks .dtd{background-image:url('../typo3/gfx/fileicons/dtd.gif')!important;}
+	.filelinks .eps{background-image:url('../typo3/gfx/fileicons/eps.gif')!important;}
+	.filelinks .exe{background-image:url('../typo3/gfx/fileicons/exe.gif')!important;}
+	.filelinks .fh3{background-image:url('../typo3/gfx/fileicons/fh3.gif')!important;}
+	.filelinks .flash{background-image:url('../typo3/gfx/fileicons/flash.gif')!important;}
+	.filelinks .folder{background-image:url('../typo3/gfx/fileicons/folder.gif')!important;}
+	.filelinks .gif{background-image:url('../typo3/gfx/fileicons/gif.gif')!important;}
+	.filelinks .htm{background-image:url('../typo3/gfx/fileicons/htm.gif')!important;}
+	.filelinks .html{background-image:url('../typo3/gfx/fileicons/html.gif')!important;}
+	.filelinks .ico{background-image:url('../typo3/gfx/fileicons/ico.gif')!important;}
+	.filelinks .inc{background-image:url('../typo3/gfx/fileicons/inc.gif')!important;}
+	.filelinks .java{background-image:url('../typo3/gfx/fileicons/java.gif')!important;}
+	.filelinks .jpg{background-image:url('../typo3/gfx/fileicons/jpg.gif')!important;}
+	.filelinks .js{background-image:url('../typo3/gfx/fileicons/js.gif')!important;}
+	.filelinks .max{background-image:url('../typo3/gfx/fileicons/max.gif')!important;}
+	.filelinks .mid{background-image:url('../typo3/gfx/fileicons/mid.gif')!important;}
+	.filelinks .mov{background-image:url('../typo3/gfx/fileicons/mov.gif')!important;}
+	.filelinks .mpeg{background-image:url('../typo3/gfx/fileicons/mpeg.gif')!important;}
+	.filelinks .mpg{background-image:url('../typo3/gfx/fileicons/mpg.gif')!important;}
+	.filelinks .pcd{background-image:url('../typo3/gfx/fileicons/pcd.gif')!important;}
+	.filelinks .pcx{background-image:url('../typo3/gfx/fileicons/pcx.gif')!important;}
+	.filelinks .pdf{background-image:url('../typo3/gfx/fileicons/pdf.gif')!important;}
+	.filelinks .png{background-image:url('../typo3/gfx/fileicons/png.gif')!important;}
+	.filelinks .ps{background-image:url('../typo3/gfx/fileicons/ps.gif')!important;}
+	.filelinks .psd{background-image:url('../typo3/gfx/fileicons/psd.gif')!important;}
+	.filelinks .rtf{background-image:url('../typo3/gfx/fileicons/rtf.gif')!important;}
+	.filelinks .sgml{background-image:url('../typo3/gfx/fileicons/sgml.gif')!important;}
+	.filelinks .swf{background-image:url('../typo3/gfx/fileicons/swf.gif')!important;}
+	.filelinks .sxc{background-image:url('../typo3/gfx/fileicons/sxc.gif')!important;}
+	.filelinks .sxw{background-image:url('../typo3/gfx/fileicons/sxw.gif')!important;}
+	.filelinks .tga{background-image:url('../typo3/gfx/fileicons/tga.gif')!important;}
+	.filelinks .tif{background-image:url('../typo3/gfx/fileicons/tif.gif')!important;}
+	.filelinks .ttf{background-image:url('../typo3/gfx/fileicons/ttf.gif')!important;}
+	.filelinks .txt{background-image:url('../typo3/gfx/fileicons/txt.gif')!important;}
+	.filelinks .wav{background-image:url('../typo3/gfx/fileicons/wav.gif')!important;}
+	.filelinks .wrl{background-image:url('../typo3/gfx/fileicons/wrl.gif')!important;}
+	.filelinks .xls{background-image:url('../typo3/gfx/fileicons/xls.gif')!important;}
+	.filelinks .xml{background-image:url('../typo3/gfx/fileicons/xml.gif')!important;}
+	.filelinks .xsl{background-image:url('../typo3/gfx/fileicons/xsl.gif')!important;}
+	.filelinks .zip{background-image:url('../typo3/gfx/fileicons/zip.gif')!important;}
+	/* Icons end */
+	.filelinks a:hover{text-decoration:underline;}
+/* default styles for extension "tt_news" */
+  /* example styles for the pagebrowser */
+    .tx-ttnews-browsebox TD { font-size: 10px; }
+    .tx-ttnews-browsebox-strong, .tx-ttnews-browsebox-SCell { font-weight: bold; }
+    .tx-ttnews-browsebox-SCell { background-color: #EEE; }
+/* default styles for extension "tx_croncssstyledimgtext" */
+/*
+ * css-styled-imgtext
+ */
+/*
+  Licensed under the GPL, see http://www.gnu.org/copyleft/gpl.html
+  (c) the TYPO3 content rendering group
+  (c) Ernesto Baschny (ernst@cron-it.de)
+*/
+
+/* Captions */
+P.csc-caption { margin: 0; }
+P.csc-caption {
+  font-size: 80%; /* Customize me */
+}
+DIV.csi-caption-c .csi-caption { text-align: center; }
+DIV.csi-caption-r .csi-caption { text-align: right; }
+DIV.csi-caption-l .csi-caption { text-align: left; }
+
+/* Needed for noRows setting */
+DIV.csi-textpic DIV.csi-imagecolumn { float: left; display: inline; }
+
+/* Border just around the image */
+DIV.csi-border DIV.csi-imagewrap .csi-image IMG {
+  border: 2px solid black;
+  padding: 0px 0px;
+}
+
+DIV.csi-imagewrap { padding: 0; }
+
+DIV.csi-textpic IMG { border: none; }
+
+/* DIV: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap DIV.csi-image { float: left; }
+
+/* UL: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap UL { list-style: none; margin: 0; padding: 0; }
+DIV.csi-textpic DIV.csi-imagewrap UL LI { float: left; margin: 0; padding: 0; }
+
+/* DL: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image { float: left; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DT { float: none; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DD { float: none; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DD IMG { border: none; } /* FE-Editing Icons */
+DL.csi-image { margin: 0; }
+DL.csi-image DT { margin: 0; display: inline; }
+DL.csi-image DD { margin: 0; }
+
+/* Clearer */
+DIV.csi-clear { clear: both; }
+
+/* Margins around images: */
+
+/* Pictures on left, add padding on right */
+DIV.csi-left DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-left-nowrap DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-left DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-right: 10px;
+}
+
+/* Pictures on right, add padding on left */
+DIV.csi-right DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-right-nowrap DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-right DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-left: 10px;
+}
+
+/* Pictures centered, add padding left and right */
+DIV.csi-center DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+DIV.csi-textpic DIV.csi-imagewrap .csi-image .csi-caption { margin: 0; }
+DIV.csi-textpic DIV.csi-imagewrap .csi-image IMG { margin: 0; }
+
+/* Space below each image (also in-between rows) */
+DIV.csi-textpic DIV.csi-imagewrap .csi-image { margin-bottom: 5px; }
+DIV.csi-equalheight DIV.csi-imagerow { margin-bottom: 5px; display: block; }
+
+/* Positioning of images: */
+
+/* Above */
+DIV.csi-above DIV.csi-text { clear: both; }
+
+/* Center (above or below) */
+DIV.csi-center { text-align: center; /* IE-hack */ }
+DIV.csi-center DIV.csi-imagewrap { margin: 0 auto; }
+DIV.csi-center DIV.csi-imagewrap .csi-image { text-align: left; /* Remove IE-hack */ }
+DIV.csi-center DIV.csi-text { text-align: left; /* Remove IE-hack */ }
+
+/* Right (above or below) */
+DIV.csi-right DIV.csi-imagewrap { float: right; }
+DIV.csi-right DIV.csi-text { clear: right; }
+
+/* Left (above or below) */
+DIV.csi-left DIV.csi-imagewrap { float: left; }
+DIV.csi-left DIV.csi-text { clear: left; }
+
+/* Left (in text) */
+DIV.csi-intext-left DIV.csi-imagewrap { float: left; }
+
+/* Right (in text) */
+DIV.csi-intext-right DIV.csi-imagewrap { float: right; }
+
+/* Right (in text, no wrap around) */
+DIV.csi-intext-right-nowrap DIV.csi-imagewrap { float: right; clear: both; }
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html DIV.csi-intext-right-nowrap .csi-text { height: 1%; }
+/* End hide from IE5/mac */ 
+
+/* Left (in text, no wrap around) */
+DIV.csi-intext-left-nowrap DIV.csi-imagewrap { float: left; clear: both; }
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html DIV.csi-intext-left-nowrap .csi-text { height: 1%; }
+/* End hide from IE5/mac */
+/* default styles for extension "tx_avotherresources_pi1" */
+
+    /* Style classes for the category items */
+    .av_otherresource_cattitle {
+      font-style: Arial, Verdana;
+      font-size: 12px;
+      font-weight: bold;
+      padding:2px 0px 2px 0px;
+      background-color:#E9E9E9;
+    }
+
+    .av_otherresource_catsub {
+      font-style: Arial, Verdana;
+      font-size: 12px;
+      font-weight: normal;
+      padding:5px 0px 2px 20px;
+    }
+
+    .av_otherresource_catdesc {
+      font-style: Arial, Verdana;
+      font-size: 12px;
+      font-weight: normal;
+      padding:5px 0px 2px 20px;
+    }
+
+    /* Style classes for the resource items */
+    .av_otherresource_itemtitle {
+      font-style: Arial, Verdana;
+      font-size: 12px;
+      font-weight: bold;
+      padding:2px 0px 2px 0px;
+      background-color:#E9E9E9;
+    }
+
+    .av_otherresource_itemborder {
+      border:1px solid #E9E9E9;
+    }
+
+    .av_otherresource_itemdesc {
+      font-style: Arial, Verdana;
+      font-size: 12px;
+      font-weight: normal;
+      padding:5px 0px 2px 20px;
+    }
+
+    .av_otherresource_itemmeta {
+      font-style: Arial, Verdana;
+      font-size: 10px;
+      font-weight: bold;
+      padding:2px 0px 5px 20px;
+    }
+
+    .av_otherresource_ratingform {
+      font-style: Arial, Verdana;
+      font-size: 8px;
+      font-weight: normal;
+
+    }
+    .av_otherresource_redbold {
+      font-style: Arial, Verdana;
+      font-size: 12px;
+      font-weight: bold;
+	  color: red;
+    }

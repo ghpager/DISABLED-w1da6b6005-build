@@ -1,0 +1,532 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color: #FF6600;
+	font-size: 12px;
+	line-height: 120%;
+	text-decoration: none;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+}
+
+td {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 130%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+td#nav_hor a {
+	font-size: 12px;
+	line-height: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+td#nav_hor a:link {
+        color: white;
+}
+td#nav_hor a:visited {
+        color: white;
+}
+td#nav_hor a:hover {
+        color: #8FA6AC;
+}
+td#nav_hor a:active {
+        color: #8FA6AC;
+}
+
+
+td#nav_vert a {
+	color: #000000;
+/*	margin-left: 0px; */
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 14px;
+	text-decoration: none;
+}
+td#nav_vert a:link {
+}
+td#nav_vert a:visited {
+}
+td#nav_vert a:hover {
+	color: #8FA6AC;
+}
+td#nav_vert a:active {
+	color: #8FA6AC;
+}
+
+/* Left Navigation SubMenu Spacer */
+td#nav_vert_spacer {  
+   font-size: 12px;
+   font-variant: small-caps;
+   font-weight: bolder;
+   color: #FCAA00;   /*  */
+   text-decoration: none;
+   padding: 4px;
+/*   margin-left: 0px; 
+   background-color: #313431;
+   border-bottom: thin dotted #9B193D; burgundy  */
+}
+
+td#nav_tmenu_layers a {
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: light;
+	text-decoration: none;
+}
+td#nav_tmenu_layers a:hover {
+	color: #8FA6AC;
+}
+td#nav_tmenu_layers a:active {
+	color: #8FA6AC;
+}
+
+td#searchbox_headline {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+td#content {
+	font-size: 12px;
+	font-style: normal;
+	line-height: 120%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #333333;
+}
+
+ol {
+	font-size : 12px;
+	line-height : 140%;
+	color: #333333;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	padding-bottom : 0px;
+	text-indent : 0px;
+}
+
+ul {
+	font-size : 12px;
+	line-height : 150%;
+}
+
+a#contentlink:link {
+	color: #ff6600;
+	font-size: 12px;
+	line-height: 13px;
+}
+a#contentlink:hover {
+	color: #8FA6AC;
+	font-size: 12px;
+	line-height: 13px;
+}
+a#contentlink:active {
+	color: #FCAA00;
+	font-size: 12px;
+	line-height: 13px;
+}
+a#contentlink:visited {
+	color: #007457;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+
+SELECT { 
+	font-size: 12px 
+	font-weight: light;
+	background-color: #F7FFF9; /* #E6EEF6; */
+	border: #313431 solid 1px;
+	color: #660000;
+}
+TEXTAREA {  
+	font-size: 12px;
+	font-weight: light;
+	background-color: #F7FFF9; /* #E6EEF6; */
+	border: #313431 solid 1px;
+	color: #660000;
+} 
+INPUT {
+	font-size: 12px;
+	font-weight: light;
+	background-color: #F7FFF9;
+	border: #313431 solid 1px;
+	color: #660000;
+}
+
+
+H1 {
+	font-size : 18px;
+	line-height: 20px;
+	color : black;
+	margin-bottom : 15px;
+	margin-top : 0px;
+}
+H2 {
+	font-size : 12px;
+	line-height: 120%;
+	color: #ff6600;
+	margin-bottom : 10px;
+	margin-top : 0px;
+}
+H3 {
+	font-size : 12px;
+	color : #666666;
+	margin-bottom : 0px;
+}
+H4 {
+	font-size:	10px;
+	color:		black;
+	margin-bottom:	0px;
+	margin-top:	0px;
+}
+.subhead1 {
+	font-size : 10px;
+	color : black;
+}
+.subhead2 {
+	font-size : 10px;
+	margin-top : 50px;
+	color : green;
+}
+.subhead3 {
+	font-size : 10px;
+	color : red;
+}
+.headerdate {
+	font-size : 10px;
+	color : Green;
+	font-weight: normal;
+}
+
+.inputfield {
+	font-weight: light;
+	background-color: #FCAA00;
+	border: #313431 solid 1px;
+	color: #FFFFFF;
+}
+
+.searchform {
+	font-size : 10px;
+	color : #6600CC;
+	background-color: #000000;
+	font-weight : normal;
+}
+.searchresultpagetitle {
+	font-size : 15px;
+	color : #333333;
+	font-weight : bold;
+}
+.searchresultcontent {
+	font-size : 12px;
+	color : #6600CC;
+	font-weight : normal;
+}
+.searchresultheader {
+	font-size : 14px;
+	color : #333366;
+	font-weight : bolder;
+}
+.searchmarkup {
+	color : #FF0066;
+}
+
+
+
+
+.loginform {
+	font-size : 12px;
+	color : #CC0000;
+	font-weight : normal;
+}
+
+
+
+
+.mailform {
+	font-size : 12px;
+	color : #003366;
+	font-weight : normal;
+}
+.mailformrequired {
+	font-size : 12px;
+	color : #003366;
+	font-weight : bolder;
+}
+.mailformcomment {
+	font-size : 12px;
+	color : #CC0000;
+	font-weight : bolder;
+}
+.mailformradio {
+	font-size : 10px;
+	color : #003366;
+	font-weight : normal;
+}
+
+
+.filelinks {
+	font-size : 14px;
+	color : #990000;
+}
+.filelinkssize {
+	font-size : 14px;
+	color : Green;
+}
+
+
+
+.sitemap1 {
+	font-size : 13px;
+	line-height : 15px;
+	color : #CC6600;
+}
+.sitemap2 {
+	font-size : 12px;
+	line-height : 14px;
+	color : #990000;
+	margin-left : 20px;
+}
+.sitemap3 {
+	font-size : 11px;
+	line-height : 13px;
+	color : #333399;
+	margin-left : 40px;	
+}
+.sitemap4 {
+	font-size : 9px;
+	color : #003333;
+	margin-left : 60px;
+}
+
+
+
+.celmenu {
+	font-size : 12px;
+	color : olive;
+	margin-top : 10px;
+}
+.celsubmenu {
+	font-size : 12px;
+	color : #666699;
+	margin-left : 20px;
+	margin-top : 3px;
+}
+
+P {
+	font-size : 12px;
+	line-height : 120%;
+	color: #333333;
+	margin-top : 0px;
+	margin-bottom : 0px;
+	padding-bottom : 0px;
+	text-indent : 0px;
+}
+.caption {
+	font-size : 11px;
+	font-weight: bold;
+/* 	color : #FF9966; */
+}
+.bulletlist {
+	font-size : 12px;
+	line-height: 110%;
+}
+.table {
+	color : #CC3366;
+}
+.av_otherresource_itemtitle {
+	color: #ff6600;
+	/*background-color: white; */
+}
+
+div#hinweis_klein {
+	font-size: 11px;
+}
+
+
+/* Galerie wie in Wikipedia (Dia-Ansicht) */
+table.imgtext-table {
+        border:  1px solid #313431; /* #cccccc;*/
+        margin:  2px;
+        padding: 2px;
+/*        background-color: #fcaa00; ffffff; */
+}
+table.imgtext-table tr {
+	vertical-align:top;
+}
+table.imgtext-table td {
+      vertical-align:top;
+/*      background-color:#ffffff; f9f9f9; */
+      border: solid 0px #e6eef6; /* white; */
+}
+
+
+table.gallery {
+        border:  0px solid #313431; /* #cccccc;*/
+        margin:  2px;
+        padding: 2px;
+/*        background-color: #fcaa00; ffffff; */
+}
+table.gallery tr {
+	vertical-align:top;
+}
+table.gallery td {
+      vertical-align:top;
+/*      background-color:#ffffff; f9f9f9; */
+      border: solid 0px #e6eef6; /* white; */
+}
+div.gallerybox {
+        margin: 2px;
+        width:  148px;
+	background-color:#ffffff;
+}
+div.gallerybox div.thumb {
+        text-align: center;
+        border: 1px solid #313431;  /* #fcaa00; #cccccc; */
+        margin: 2px;
+        height: 80px; /* Diahoehe 106px - 2x3px Rahmen (oben u unten) - 2x10px Padding */
+}
+div.gallerytext {
+        font-size: 94%;
+        padding: 2px 4px;
+}
+
+
+
+
+
+/* default styles for extension "tx_croncssstyledimgtext" */
+/*
+ * css-styled-imgtext
+ */
+/*
+  Licensed under the GPL, see http://www.gnu.org/copyleft/gpl.html
+  (c) the TYPO3 content rendering group
+  (c) Ernesto Baschny (ernst@cron-it.de)
+*/
+
+/* Captions */
+P.csc-caption { margin: 0; }
+P.csc-caption {
+  font-size: 80%; /* Customize me */
+}
+DIV.csi-caption-c .csi-caption { text-align: center; }
+DIV.csi-caption-r .csi-caption { text-align: right; }
+DIV.csi-caption-l .csi-caption { text-align: left; }
+
+/* Needed for noRows setting */
+DIV.csi-textpic DIV.csi-imagecolumn { float: left; display: inline; }
+
+/* Border just around the image */
+DIV.csi-border DIV.csi-imagewrap .csi-image IMG {
+  border: 2px solid black;
+  padding: 0px 0px;
+}
+
+DIV.csi-imagewrap { padding: 0; }
+
+DIV.csi-textpic IMG { border: none; }
+
+/* DIV: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap DIV.csi-image { float: left; }
+
+/* UL: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap UL { list-style: none; margin: 0; padding: 0; }
+DIV.csi-textpic DIV.csi-imagewrap UL LI { float: left; margin: 0; padding: 0; }
+
+/* DL: This will place the images side by side */
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image { float: left; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DT { float: none; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DD { float: none; }
+DIV.csi-textpic DIV.csi-imagewrap DL.csi-image DD IMG { border: none; } /* FE-Editing Icons */
+DL.csi-image { margin: 0; }
+DL.csi-image DT { margin: 0; display: inline; }
+DL.csi-image DD { margin: 0; }
+
+/* Clearer */
+DIV.csi-clear { clear: both; }
+
+/* Margins around images: */
+
+/* Pictures on left, add padding on right */
+DIV.csi-left DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-left-nowrap DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-left DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-right: 10px;
+}
+
+/* Pictures on right, add padding on left */
+DIV.csi-right DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-right-nowrap DIV.csi-imagewrap .csi-image,
+DIV.csi-intext-right DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-left: 10px;
+}
+
+/* Pictures centered, add padding left and right */
+DIV.csi-center DIV.csi-imagewrap .csi-image {
+  display: inline; /* IE fix for double-margin bug */
+  margin-left: 5px;
+  margin-right: 5px;
+}
+DIV.csi-textpic DIV.csi-imagewrap .csi-image .csi-caption { margin: 0; }
+DIV.csi-textpic DIV.csi-imagewrap .csi-image IMG { margin: 0; }
+
+/* Space below each image (also in-between rows) */
+DIV.csi-textpic DIV.csi-imagewrap .csi-image { margin-bottom: 5px; }
+DIV.csi-equalheight DIV.csi-imagerow { margin-bottom: 5px; display: block; }
+
+/* Positioning of images: */
+
+/* Above */
+DIV.csi-above DIV.csi-text { clear: both; }
+
+/* Center (above or below) */
+DIV.csi-center { text-align: center; /* IE-hack */ }
+DIV.csi-center DIV.csi-imagewrap { margin: 0 auto; }
+DIV.csi-center DIV.csi-imagewrap .csi-image { text-align: left; /* Remove IE-hack */ }
+DIV.csi-center DIV.csi-text { text-align: left; /* Remove IE-hack */ }
+
+/* Right (above or below) */
+DIV.csi-right DIV.csi-imagewrap { float: right; }
+DIV.csi-right DIV.csi-text { clear: right; }
+
+/* Left (above or below) */
+DIV.csi-left DIV.csi-imagewrap { float: left; }
+DIV.csi-left DIV.csi-text { clear: left; }
+
+/* Left (in text) */
+DIV.csi-intext-left DIV.csi-imagewrap { float: left; }
+
+/* Right (in text) */
+DIV.csi-intext-right DIV.csi-imagewrap { float: right; }
+
+/* Right (in text, no wrap around) */
+DIV.csi-intext-right-nowrap DIV.csi-imagewrap { float: right; clear: both; }
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html DIV.csi-intext-right-nowrap .csi-text { height: 1%; }
+/* End hide from IE5/mac */ 
+
+/* Left (in text, no wrap around) */
+DIV.csi-intext-left-nowrap DIV.csi-imagewrap { float: left; clear: both; }
+/* Hide from IE5-mac. Only IE-win sees this. \*/
+* html DIV.csi-intext-left-nowrap .csi-text { height: 1%; }
+/* End hide from IE5/mac */
